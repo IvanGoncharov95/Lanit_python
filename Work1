@@ -1,0 +1,31 @@
+#Номер 1
+a = int(input())
+b = int(input())
+
+print("Сумма ", (a+b))
+print("Разность ", (a-b))
+print("Деление ", (a/b))
+print("Умножение ", (a*b))
+#Номер 2
+c = int(input())
+print("Десятичная система ", c)
+print("Двоичная система ", bin(c))
+print("Восьмеричная система ", oct(c))
+print("Шестнадцатиричная система ", hex(c))
+
+#Номер 3
+af = int(input())
+bf = int(input())
+cf = int(input())
+f = (af * bf) + (af * cf)
+print(f)
+#Номер 4
+Day1 = "Понедельник"
+Day2 = "Вторник"
+print(Day1, ",", " ", Day2, sep="")
+#Номер 5
+name = (input("Назовите Ваше Имя: "))
+country = (input("Из какой Вы страны: "))
+city = (input("Ваш город: "))
+age = (input("В каком году вы родились: "))
+print(f"Уважаемый {name}! На сегодняшний день Вы проживаете в стране {country},в городе {city}, И ВЫ родились в '{age} году")
